@@ -190,6 +190,7 @@ button:focus-visible {
 
 .hero h1 {
   font-size: clamp(36px, 5vw, 66px);
+  white-space: nowrap;
 }
 
 .hero-copy p:not(.eyebrow) {
@@ -264,6 +265,10 @@ button:focus-visible {
 .split-copy h2,
 .cta h2 {
   font-size: clamp(28px, 3.2vw, 44px);
+}
+
+.concept-text h2 {
+  white-space: nowrap;
 }
 
 .concept-text p:not(.section-kicker),
@@ -823,6 +828,14 @@ button:focus-visible {
 
   .hero-copy p:not(.eyebrow) {
     font-size: 1.6rem;
+  }
+
+  .hero h1 {
+    white-space: normal;
+  }
+
+  .concept-text h2 {
+    white-space: normal;
   }
 
   .button {
